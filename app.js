@@ -21,7 +21,7 @@ async function initApp() {
     console.log("---------------------");
   });
 
-  // Save to Local Storage  
+  // Save to Local Storage     
   await saveToLocal(firstFivePosts);
 }
 
