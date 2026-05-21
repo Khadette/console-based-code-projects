@@ -12,5 +12,5 @@ function fetchPosts() {
     });
 }
 
-// Named export
+// Named export 
 export { fetchPosts };
