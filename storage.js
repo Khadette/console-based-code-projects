@@ -12,5 +12,5 @@ async function saveToLocal(data) {
   }
 }
 
-// Default export
+      // Default export   
 export default saveToLocal;
