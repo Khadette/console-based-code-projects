@@ -58,5 +58,4 @@ Open browser console and you will see:**
 **author: isimbi emelyne niyokwizerwa**
 
 
-Author
-Khadette
+
