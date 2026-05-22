@@ -1,16 +1,15 @@
 // api.js
 
-function fetchPosts() {
-  return fetch("https://jsonplaceholder.typicode.com/posts")
-    .then((response) => response.json())
-    .then((data) => {
-      return data;
-    })
-    .catch((error) => {
-      console.error(error);
-      return [];
-    });
+async function fetchPosts() {
+  try {
+    const response = await fetch("https://jsonplaceholder.typicode.com/posts");
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error(error);
+    return [];
+  }
 }
 
-// Named export 
+// Named export
 export { fetchPosts };
